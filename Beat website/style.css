@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+
+  /*-------   ----------------*/
+  /*------- Header Section  ----------------*/
+  /*-------   ----------------*/
+  .menu-items{
+    width: 60%;
+    float: right;
+    padding: 10px;
+  }
+
+  .logo-container, .shopbtn-container{
+    width: 20%;
+    display: flex;
+    padding: 10px;
+  }
+
+  .logo-container img{
+    cursor: pointer;
+  }
+
+  .main{
+    display: flex;
+    padding: 20px 80px;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .menu-items>ol{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    right: 0;
+    float: right;
+  }
+
+  .menu-items>ol>li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  .shopbtn-container{
+    justify-content: center;
+  }
+
+  .shopbtn-container>.shop-btn{
+     float: right;
+     right: 0;
+     padding: 10px 40px;
+     border: 2px 1px 2px 1px;
+     border-radius: 6px;
+     border-color: rgb(40, 40, 40);
+     background-color: rgb(27, 27, 27);
+     cursor: pointer;
+  }
+  /*------- Header Section End  ----------------*/
+
+
+    /*-------   ----------------*/
+  /*------- Hero Section  ----------------*/
+  /*-------   ----------------*/
+
+  .main-container{
+    display: flex;
+    padding: 50px 0 0 50px;
+  }
+
+  .main-container>div{
+    width: 50%;
+  }
+
+  .mainimg-cont{
+    display: flex;
+   justify-content: center;
+    
+  }
+  .mainimage{
+    top: -180px;
+    position: absolute;
+  }
+
+  .main-container>.hero-2ndcont>img{
+    margin-left: 50px;
+  }
+
+  .main-container>.hero-2ndcont>h1{
+    font-size: 3em;
+  }
+
+  .main-container>.hero-2ndcont>h4{
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: none;
+  }
+
+  .main-container>.hero-2ndcont>p{
+    font-weight: 300;
+    font-size: 1em;
+    width: 50%;
+    margin: 20px 0 20px 0;
+  }
+
+  .hero-cta{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    background-color: #2c2c2c;
+    width: fit-content;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  .hero-cta h3{
+    font-weight: 500;
+    font-size: 1em;
+    background-color: transparent;
+  }
+
+  .hero-cta img, span{
+    background-color: transparent;
+  }
+
+   /*------- Hero Section End  ----------------*/
+
+   .brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin: 80px 0;
+    position: relative;
+   }
+
+   .specification{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 5px 0 50px 0;
+   }
+
+   .specification-logo{
+    scale: 0.8;
+    margin-bottom: 20px;
+    width: 20%;
+    align-self: center;
+   }
+
+   .specification-list{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+   }
+
+   .specification-list-items{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #bdc0c2;
+    font-size: 10px;
+   }
+
+   .specification-list-items div img{
+    margin-bottom: 5px;
+   }
+
+   .specification-list-items div:first-child, .specification-list-items div:last-child{
+    margin-left: 30px;
+   }
+
+   .specs-headphone{
+    scale: 1;
+   }
+
+   /* Case Section */
+
+   .case-mainsection{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .case-logo{
+    scale: 0.8;
+    margin-bottom: 20px;
+    width: 20%;
+    align-self: center;
+   }
+
+   .case-innercont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+   }
+
+   .caseimg-container img{
+    justify-items: end;
+    float: right;
+   }
+
+   .case-innercont p{
+    font-size: 1em;
+    font-weight: 400;
+   }
+
+
+   .case-cta-container{
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    margin-top: 30px;
+    width: fit-content;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 8px;
+    gap: 20px;
+    cursor: pointer;
+   }
+
+   .case-cta-container h4, img{
+    font-size: 1em;
+    font-weight: 400;
+    background-color: transparent;
+   }
+
+   /* Case Section End */
+
+  
+  /* Product Section */
+
+   .product-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    margin: 40px 0 40px;
+    gap: 80px;
+    width: 60%;
+    justify-self: center;
+    border-radius: 12px;
+    background-color: rgb(30, 30, 30);
+    z-index: 99;
+   }
+
+   .inner-prdt-cta{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgb(30, 30, 30);
+    
+   }
+    
+   .inner-prdt-cta>p{
+    font-size: 0.8em;
+    background-color: transparent;
+   }
+
+   .inner-prdt-cta h3{
+    background-color: transparent;
+   }
+
+   .prdt-cta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #0f0f10;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 0.8em;
+    cursor: pointer;
+   }
+
+   /* Product Section End */
+
+   
+   /*  Product List Section */
+
+   .product-list{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0 50px 0;
+    gap: 60px;
+   }
+
+   .choose-brand{
+    width: 20%;
+   }
+
+   .product-lit-1st{
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+    align-content: space-between;
+    padding: 20px;
+   }
+
+   .inner-product-list-cta{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: transparent;
+    padding-top: 80px;
+   }
+
+   .inner-product-list-cta p{
+    font-weight: 700;
+    background-color: transparent;
+   }
+
+   .inner-product-list-cta span{
+    font-weight: 400;
+   }
+   .product-lit-1st div{
+    position: relative;
+    width: 200px;
+    height: 180px;
+    background: #181a1b;
+    border-radius: 8px;
+    align-content: space-evenly;
+   }
+
+   .product-lit-1st .Headphone{
+    width: 65%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+   }
+
+   .product-lit-1st>.first-card{
+    display: flex;
+    row-gap: 30px;
+    align-content: space-around;
+
+   }
+
+   .product-card-ctaicon{
+    background: #0f0f10;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+   }
+
+   .product-lit-1st:last-child{
+    margin-left: -300px;
+   }
+
+   /* Product List Section End */
+
+   /* Footer Section */
+
+   footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 80px 50px 120px;
+    margin-top: 50px;
+    position: relative;
+   }
+
+   .footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+
+   .email-container{
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    padding: 2opx;
+   }
+
+   .arrow-up{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+   }
+
+   ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+    margin: 10px 0;
+  }
+
+  footer h3{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-subscription div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .social-buttons{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
