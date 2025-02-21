@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body {
+      max-width: 1440px;
+      background-color: #f0f4f5;
+      overflow: hidden;
+      margin: auto;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    
+    .logo-conteiner img{
+        width: 80%;
+    }
+    nav{
+        display: flex;
+        gap: 40px;
+    }
+    
+    nav li{
+        list-style: none;
+    }
+    
+    nav li a{
+        color: black;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 1.2em;
+     }
+    
+     .main-container{
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+
+     .description{
+        width: 50%;
+        text-align: center;
+     }
+
+     .main-container h1{
+        font-size: 2.5em;
+        color: #20BC7E;
+        margin-bottom: 20px;
+     }
+
+     .main-container p{
+        font-size: 18px;
+     }
+
+     .hospital-inner-numberingbox{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+     }
+
+     .hospital-inner-numberingbox div{
+        background-color: #f0f4f5;
+        border-radius: 12px;
+        box-shadow: 10px 10px 40px -14px rgba(0,0,0,0.40);
+        padding: 20px 50px;
+     }
+
+     .hospital-inner-numberingbox h3{
+        font-weight: 700;
+        color: #20BC7E;
+     }
+
+     .hospital-inner-numberingbox p{
+        font-weight: 600;
+     }
